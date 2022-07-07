@@ -1,0 +1,79 @@
+body {
+    height: 100%;
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form {
+    font-family: 'BIZ UDMincho', serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #f3f3f3;
+    background-color: rgba(109, 64, 0, 0.692);
+    position: absolute;
+    /* position relative é relacionado ao parent/div e abslute é relacionado a pagina em si*/
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    border-radius: 10px;
+    border: solid 1px black;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.877), rgba(75, 75, 75, 0.623))*/
+}
+
+.form input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px dashed white;
+    padding: 5px;
+    display: inline-block;
+    width: 80%;
+    box-sizing: border-box;
+    font-family: 'BIZ UDMincho', serif;
+    color: #f3f3f3;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.form label {
+    font-size: 24px;
+    font-family: 'BIZ UDMincho', serif;
+    margin-left: 10px;
+}
+
+.form button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'BIZ UDMincho', serif;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.fontnome,
+.fontemail,
+.fontsenha {
+    position: relative;
+}
+
+.fontemail i,
+.fontsenha i {
+    position: absolute;
+    left: 10px;
+    top: 27px;
+}
+
+.fontnome i {
+    position: absolute;
+    left: 13px;
+    top: 27px;
+}
